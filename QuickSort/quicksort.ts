@@ -24,6 +24,7 @@ function quicksortInPlace(arr: number[], low = 0, high = arr.length - 1): void {
 
 function partition(arr: number[], low: number, high: number): number {
   const pivot = arr[high]; // Escolhemos o último elemento como pivô
+
   let i = low - 1; // Índice do menor elemento
 
   for (let j = low; j < high; j++) {
